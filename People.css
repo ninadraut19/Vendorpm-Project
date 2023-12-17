@@ -1,0 +1,24 @@
+/* People.css */
+.people-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Adjust the height if needed */
+  }
+  
+  .people-table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust the width if needed */
+  }
+  
+  .people-table th,
+  .people-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+  }
+  
+  .people-table th {
+    background-color: black;
+  }
+  
